@@ -1,0 +1,10 @@
+.chevron-right-1 .vector {
+  width: 18px;
+  height: 36px;
+}
+.chevron-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}

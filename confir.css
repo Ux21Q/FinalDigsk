@@ -1,0 +1,218 @@
+.confir .ellipse-1 {
+  box-shadow: 0px 21px 19px 2px rgba(0, 0, 0, 0.08);
+  border-radius: 147px;
+  background: #DB0000;
+  position: absolute;
+  left: 22px;
+  top: 160px;
+  width: 294px;
+  height: 294px;
+}
+.confir .rectangle-20 {
+  background: url('../assets/images/rectangle20.png');
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: -85px;
+  height: 642px;
+}
+.confir .rectangle-7 {
+  background: rgba(255, 0, 0, 0.73);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 100%;
+}
+.confir .tape-1 {
+  position: relative;
+  margin: 0 1.2px 17px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 1.714;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.confir .rectangle-15 {
+  position: absolute;
+  top: 403px;
+  right: 322px;
+  width: 444px;
+  height: 74px;
+}
+.confir .logo-red-3 {
+  background: url('../assets/images/logoRed3.png') 50% / cover no-repeat;
+  position: relative;
+  margin: 0 1.7px 47px 0;
+  width: 68px;
+  height: 68px;
+}
+.confir .flicitations-pour-avoir-rejoint-laventure {
+  position: relative;
+  margin-bottom: 25px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 900;
+  font-size: 41px;
+  line-height: 1.073;
+  color: #000000;
+}
+.confir .lorem-ipsum-dolor-sit-amet-consectetur-adipisicing-elit-autem-dolore-alias-numquam-enim-ab-voluptate-id-quam-harum-ducimus-cupiditate-similique-quisquam-et-deserunt-recusandae {
+  position: relative;
+  margin: 0 26.8px 79px 26.2px;
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.833;
+  color: #000000;
+}
+.confir .lorem-ipsum {
+  position: relative;
+  margin-left: 34.3px;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 1.714;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.confir .container-1 {
+  border-radius: 8px;
+  background: rgba(255, 254, 254, 0.99);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 31.3px 57px 31px;
+  width: 80%;
+  box-sizing: border-box;
+}
+.confir .group-1 {
+  background: url('../assets/images/rectangle6.jpeg') center/cover no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 247px 0 173px 0;
+  width: 1440px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.confir .vector {
+  width: 413px;
+  height: 413px;
+}
+.confir .objects {
+  position: absolute;
+  top: 127px;
+  right: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 413px;
+  height: 413px;
+  box-sizing: border-box;
+}
+.confir .container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1440px;
+  box-sizing: border-box;
+}
+.confir .logo-red-2 {
+  background: url('../assets/images/logoRed3.png') center/contain no-repeat;
+  margin: 28px 0 64px 0;
+  width: 150px; 
+  height: 150px;/
+  position: relative;
+  z-index: 999;
+}
+.confir .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris-nisi-ut-aliquip-ex-ea-commodo-consequat {
+  text-align: justify;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 2.588;
+  color: #FFFFFF;
+
+}
+.confir .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris-nisi-ut-aliquip-ex-ea-commodo-consequat {
+  text-align: justify;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 2.588;
+  color: #FFFFFF;
+  width: calc(50% - 40px); /* Set width to 50% minus a gap of 40px from the right */
+  position: absolute; /* Position absolutely */
+  top: 200px; /* Adjust the top position to match the logo's vertical alignment */
+  right: 40px; /* Set a gap of 40px from the right */
+}
+
+.confir .container-2 {
+  margin-bottom: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1117.5px;
+  box-sizing: border-box;
+}
+.confir .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do {
+  text-align: justify;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 2.588;
+  color: #FFFFFF;
+  position: absolute; 
+  z-index: 999; 
+  bottom: 20px; 
+  left: 50%; 
+  transform: translateX(-50%);
+}
+
+.confir .container-3 {
+  background: rgba(0, 0, 0, 0.9) url('../assets/images/rectangle20.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 177px 99.5px 107px 0;
+  width: 1440px;
+  box-sizing: border-box;
+}
+.confir .container-3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9); 
+  opacity: 0.7; 
+}
+.confir {
+  opacity: 0.9;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1440px;
+  box-sizing: border-box;
+}

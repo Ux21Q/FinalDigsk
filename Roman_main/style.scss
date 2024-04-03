@@ -1,0 +1,204 @@
+@import 'set';
+@import 'variables';
+
+@import 'bootstrap.min.scss';
+
+@mixin flex_column{
+display: flex;
+flex-direction: column;
+}
+@mixin flex_row{
+    display: flex;
+    flex-direction: row;
+}
+
+.first-container{
+    height: 100%;
+    .first-div{
+        @extend  .row;
+        height: 100%;
+        width: 100%;
+
+            .div1{
+                @extend .col-6;
+                @include flex_column();
+                background-color: $primary_color;
+                height: 100%;
+                 &-logo{
+                    flex: 1;
+                    width: 50px;
+                    object-fit: contain;
+                    justify-self: start;
+                    margin-left: 10px
+
+                 }
+                 &-text{
+                    @extend .h2;
+                    @extend .fw-bold;
+                    @include flex_row();
+                    flex: 3;
+                    color:$text_color_2 ;
+                    justify-self: center;
+                    word-spacing: 30px;
+                    padding-left: 20px;
+                    align-items: center;
+                    z-index: 10;
+                    font-family: normal_text;
+                 }
+                 .button-container{
+                    @extend .row;
+                    @include flex_row();
+                    flex: 2;
+                    justify-content: center;
+                    align-items: center;
+                    z-index: 10;
+                        .button{
+                        @extend .btn;
+                        @extend .fw-bold;
+                        font-family: normal_text;
+                        background-color: $secondary_color;
+                        color: $text_color_3;
+                        width: 40%;
+                        padding: 20px;
+                        margin-bottom: 20px;
+                        border-radius:30px 0px ;
+                        &:hover{
+                            color:$text_color_2;
+                        }
+                    }
+                 }
+                 
+            }
+            .div2{
+                @include flex_row();
+                @extend .col-6;
+                background-color: $secondary_color;
+                height:100%;
+                    &-1{
+                    position: relative;
+                    right: 50%;
+                    top:10%;
+                    display:inline;
+                    .center-image{
+                        margin: auto;
+                        height: 90%;
+                        object-fit: contain;
+                    }
+                    .vector{
+                        position: relative;
+                        right:-85%;
+                        bottom:95%;
+                        width: 20%;
+                        height: 20%;
+
+                    }
+
+                }
+                &-2{
+                    position: relative;
+                    right: 35%;
+                    @include flex_column();
+                    justify-content: center;
+                    &-image{
+                        width: 100%;
+                        object-fit: contain;
+                    }
+                    p{
+                        padding: 2px;
+                        font-family: normal_text;
+                        color: $text_color_1;
+                        
+                    }
+                    .p2{
+                        @extend .h1;
+                        font-weight: bold;
+                        font-family: normal_text;
+                        color: $text_color_1;
+                        text-align: center;
+                        span{
+                            padding: 0px 10px;
+                        }
+                    }
+                    &-button{
+                        @extend .btn;
+                        @extend .fw-bold;
+                        font-family: normal_text;
+                        background-color: $primary_color;
+                        width: 100%;
+                        color: $text_color_3;
+                        padding: 30px 20px ;
+                        margin-bottom: 20px;
+                        border-radius:30px 0px ;
+                        &:hover{
+                            color:$text_color_2;
+                        }
+                        
+                    }
+                }
+            }
+    }
+}
+.seconde-container{
+    @include flex_row();
+    justify-content: center;
+    align-items: center;
+    height:40%;
+}
+.third-container{
+    @extend .row;
+    justify-content: center;
+    .rounded {
+        @extend .col-2;
+        border-top: 8px solid #9d9d9d;
+        border-radius: 5px;
+        margin:  0px 3px;
+        background-color: #9d9d9d;
+      }
+}
+.forth-container{
+    height: 100%;
+    &-1{
+        @include flex_row();
+        justify-content: center;
+        align-items: center;
+        height: 20%;
+        p{
+            @extend .h1;
+            font-weight: bold;
+            font-family: normal_text;
+            width: 80%;
+            text-align: center;
+            text-transform: uppercase;
+
+        }
+    }
+    &-2{
+        @include flex_row();
+        height: 80%;
+        justify-content: space-around;
+        align-items: center;
+        .number{  @extend .h1;
+            font-size: 13rem;
+            position: relative;
+            left: 2.7%;
+            color: $text_color_3;
+            font-weight: bold;
+        }
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 60%;
+            width: 25%;
+            background-color: rgb(244, 243, 243);
+            z-index: 10;
+            p{
+                text-align: center;
+                color:$text_color_1;
+                font-family: normal_light;
+                font-size: 1.5em;
+            }
+        }
+    }
+}
+
